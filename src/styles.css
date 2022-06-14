@@ -1,0 +1,41 @@
+.myContainer {
+    display: flex;
+}
+
+.poster-wrapper {
+    background-position: center center;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(#833ab4, #fd1d1d, #fcb045);  
+}
+
+span {
+    font-size: large;
+    color: white;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+}
+
+@media screen and (max-width: 935px) {
+    .myContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
